@@ -1,4 +1,4 @@
-.sidebar {
+.navbar {
   font-size: 15px;
   position: fixed;
   top: 0;
@@ -28,46 +28,45 @@
   font-size: 25px;
 }
 
-.sidebar ul {
+.navbar ul {
   font-size: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.sidebar ul a {
+.navbar ul a {
   text-decoration: none;
   list-style: none;
 }
 
-.sidebar ul li {
+.navbar ul li {
   color: #D1CDC2;
   padding: 10px 10px;
 }
 
-.sidebar ul li:hover {
+.navbar ul li:hover {
   background-color: #D1CDC2;
   color: #35383e;
 }
 
 @media (max-width: 800px) {
-  .sidebar ul {
+  .navbar ul {
     display: flex;
     flex-direction: column;
     position: fixed;
     left: -100%; 
     top: 40px;
-    /* bottom: 0; */
     background-color: #35383e;
     width: 100%; 
     transition: left 0.3s ease; 
   }
 
-  .sidebar ul.active {
+  .navbar ul.active {
     left: 0; 
   }
 
-  .sidebar ul a {
+  .navbar ul a {
     text-align: center;
     width: 100%;
   }

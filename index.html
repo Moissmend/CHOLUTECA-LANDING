@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/general.css">
-  <title>Choluteca</title>
-</head>
-<body>
-  <header>
-    <div class="sidebar">
-      <div class="logo">
-        Choluteca
-      </div>
-      <ul>
-        <a href="#"><li>Inicio</li></a>
-        <a href="src/historia.html"><li>Historia</li></a>
-        <a href="#"><li>Lugares Turísticos</li></a>
-        <a href="#"><li>Cultura y Tradiciones</li></a>
-        <a href="#"><li>Clima y Geografia</li></a>
-      </ul>
-      <div class="bar" id="bar-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#D1CDC2" width="24" height="24">
-          <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 176h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 176h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/>
-        </svg>
-      </div>
-    </div>
-  </header>
-
-  <div class="container">
-    <div class="container-content">
-      <h1>Ciudad de Choluteca</h1>
-      <p>
-        Bienvenido/a a Choluteca, la Sultana del Sur. Descubre este encantador rincón de Honduras, lleno de historia, cultura, y paisajes únicos. Desde sus icónicos puentes hasta sus cálidas playas, Choluteca te invita a explorar su riqueza y tradición.
-      </p>
-      <div class="imagenes-choluteca">
-        <div>
-          <img src="img/puente-choluteca.png" alt="">
-          <p style="text-align: center;">Puente de Choluteca</p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/general.css">
+    <title>Choluteca</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          Choluteca
         </div>
-        <div>
-          <img src="img/catedral-choluteca.png" alt="">
-          <p style="text-align: center;">Catedral de Choluteca</p>
+        <ul>
+          <a href="#"><li>Inicio</li></a>
+          <a href="src/historia.html"><li>Historia</li></a>
+          <a href="src/lugares.html"><li>Lugares Turísticos</li></a>
+          <a href="src/cultura.html"><li>Cultura y Tradiciones</li></a>
+        </ul>
+        <div class="bar" id="bar-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+            fill="#D1CDC2" width="24" height="24">
+            <path
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 176h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 176h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+          </svg>
         </div>
       </div>
-      <h1 class="frase-choluteca">"Donde el color del sol y de su gente hacen historia."</h1>
-    </div>
-  </div>
+    </header>
 
-  <footer></footer>
-</body>
-<script src="js/script.js"></script>
+    <div class="container">
+      <div class="container-content">
+        <h1>Ciudad de Choluteca</h1>
+        <p>
+          Bienvenido/a a Choluteca, la Sultana del Sur. Descubre este encantador
+          rincón de Honduras, lleno de historia, cultura, y paisajes únicos.
+          Desde sus icónicos puentes hasta sus cálidas playas, Choluteca te
+          invita a explorar su riqueza y tradición.
+        </p>
+        <h2>
+          Descubre lo Mejor de Choluteca
+        </h2>
+        <ul>
+          <li><strong>Historia rica:</strong> Una de las ciudades más antiguas
+            de Honduras, llena de eventos históricos memorables.</li>
+          <li><strong>Clima cálido:</strong> Conocida como la región más soleada
+            y cálida del país.</li>
+          <li><strong>Atractivos turísticos:</strong> Desde el icónico Puente de
+            Choluteca hasta las playas de Cedeño.</li>
+          <li><strong>Cultura vibrante:</strong> Festividades, tradiciones y
+            gastronomía que encantan a locales y visitantes.</li>
+        </ul>
+        <div class="imagenes-choluteca">
+          <div>
+            <img src="./img/mapa-choluteca.png" alt>
+          </div>
+        </div>
+        <h1
+          class="frase-choluteca">"Donde el color del sol y de su gente hacen historia."</h1>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-info">
+        <p>"Choluteca, donde la tradición y el futuro se encuentran."</p>
+        <p>&copy; 2024 Descubre Choluteca.</p>
+        <p>Desarrollado por Esli Mendoza - 052101002.</p>
+      </div>
+    </footer>
+
+  </body>
+  <script src="js/script.js"></script>
 </html>
